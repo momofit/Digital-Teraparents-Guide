@@ -102,18 +102,18 @@
    <fieldset> 
     <legend> CONTACTANOS</legend>
     <P>Importante llenar todos los encasillados.</P>
-    <label for="name">Name: </label>
+    <label id="name">Name: </label>
     <input type="text" name="Name" placeholder="Name">
-    <label for="Email">Email:</label>
+    <label id="Email">Email:</label>
      <input type="text" name="Email" placeholder="Email">
        <br>
        <br>
-    <label for="comments">Message:</label>
-         <textarea cols="25" rows="5" name="comments"required></textarea>
+    <label id="comments">Message:</label>
+         <textarea cols="25" rows="5" name=required></textarea>
        <br>
        <br>
-        <input type="button" value="Submit" id="boton">
-     <input type="button" value="Start Over" id="boton">  
+        <input type="button" value="Submit">
+     <input type="button" value="Start Over">  
        </fieldset></form>
                 </div>        </footer>
          </main>
