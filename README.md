@@ -1,5 +1,4 @@
-!DOCTYPE html>
- <html lang="es"> 
+
        <head>   
             <title>Teraparents Guide PR</title> 
            <meta charset="utf-8">
@@ -98,24 +97,30 @@
                                      <p class="column__txt">Bo.Navarro Sec. Cielito 506 Humacao,PR 0000</p>
                                     <p class="column__txt">telefono:1-800-123-4567</p>  </div>
                                   <div lass="column column-33"> 
+                            <h2>Dirección</h2>
+                                     <p>Bo.Navarro Sec. Cielito 506 Humacao,PR 0000</p>
+                                    <p >telefono:1-800-123-4567</p>  </div>
+                                  <div> 
                              <form action="form.php" method="post">
    <fieldset> 
     <legend> CONTACTANOS</legend>
     <P>Importante llenar todos los encasillados.</P>
-    <label for="name">Name: </label>
+    <label id="name">Name: </label>
     <input type="text" name="Name" placeholder="Name">
-    <label for="Email">Email:</label>
+    <label id="Email">Email:</label>
      <input type="text" name="Email" placeholder="Email">
        <br>
        <br>
-    <label for="comments">Message:</label>
-         <textarea cols="25" rows="5" name="comments"required></textarea>
+    <label id="comments">Message:</label>
+         <textarea cols="25" rows="5" name=required></textarea>
        <br>
        <br>
-        <input type="button" value="Submit" id="boton">
-     <input type="button" value="Start Over" id="boton">  
+        <input type="button" value="Submit">
+     <input type="button" value="Start Over">  
        </fieldset></form>
-                </div>        </footer>
+                </div>    
+             </footer>
+                
          </main>
                 </body>
      </html>
