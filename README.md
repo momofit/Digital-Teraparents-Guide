@@ -1,5 +1,4 @@
-<!DOCTYPE html>
- <html lang="es"> 
+
        <head>   
             <title>Teraparents Guide PR</title> 
            <meta charset="utf-8">
